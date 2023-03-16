@@ -40,6 +40,10 @@ Resolution steps Performed: Logged into the server. CPU utilization is under thr
 
 Overall, the idle value is above 30% which is not an abnormal circumstance. Here is the detailed information about the percentage of consumption of the processes in the server. 
 </pre>
+<h3>FILE SYSTEM</h3>
+<pre class="arun">Root Cause: &lt;&gt;
+KEDB followed: Yes
+Resolution steps Performed: Logged into the server. File System Utilization is under threshold. Hence closing the Incident. 
 <h3>MEMORY</h3>
 <pre class="arun">Root Cause: &lt;&gt;
 KEDB followed: Yes
@@ -52,12 +56,12 @@ Overall, Memory Consumption by the individual processes is below threshold. Here
 KEDB followed: Yes
 Resolution steps Performed: Linked the workstation manually. Now the workstation is in the linked state. Hence, closing the Incident.
 </pre>
-<h3>FILE SYSTEM</h3>
+<h3>SERVICES RESTART | APPLICATION POOL</h3>
 <pre class="arun">Root Cause: &lt;&gt;
 KEDB followed: Yes
-Resolution steps Performed: Logged into the server. File System Utilization is under threshold. Hence closing the Incident. 
+Resolution steps Performed: Restarted the application pool by logging into the server and using command "inetmgr". Now, its running fine. Hence, closing the Incident.
+</pre>
 
-Overall, the usage value is below 80% which is not an abnormal circumstance. Here is the detailed information about the percentage of utilization of FS. 
 <pre class="arun"><h3>Oftenly Used Writings</h3>
 Hello Team,
 
