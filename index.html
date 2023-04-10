@@ -33,24 +33,38 @@ h3{
 </head>
 <body>
 
-<h3>CPU</h3>
+<h3>UNIX CPU</h3>
 <pre class="arun">Root Cause: &lt;&gt;
 KEDB followed: Yes
 Resolution steps Performed: Logged into the server. CPU utilization is under threshold. Hence closing the Incident. 
 
 Overall, the idle value is above 30% which is not an abnormal circumstance. Here is the detailed information about the percentage of consumption of the processes in the server. 
 </pre>
-<h3>FILE SYSTEM</h3>
+<h3>UNIX FILE SYSTEM</h3>
 <pre class="arun">Root Cause: &lt;&gt;
 KEDB followed: Yes
 Resolution steps Performed: Logged into the server. File System Utilization is under threshold. Hence closing the Incident.                   |   Required compression has been done.
 </pre>
-<h3>MEMORY</h3>
+<h3>UNIX MEMORY</h3>
 <pre class="arun">Root Cause: &lt;&gt;
 KEDB followed: Yes
 Resolution steps Performed: Logged into the server. Memory utilization is under threshold. Hence closing the Incident. 
 
 Overall, Memory Consumption by the individual processes is below threshold. Here is the detailed information about the percentage of consumption of the processes in the server. 
+</pre>
+<h3>WINDOWS CPU</h3>
+<pre class="arun">Root Cause: &lt;&gt;
+KEDB followed: Yes
+Resolution steps Performed: Logged into the server. CPU utilization is under threshold. Hence closing the Incident. 
+
+Overall, CPU Consumption by the individual processes is below threshold (<90%). Refer to the snippet attached below for the details of CPU Consumption of the server. 
+</pre>
+<h3>WINDOWS MEMORY</h3>
+<pre class="arun">Root Cause: &lt;&gt;
+KEDB followed: Yes
+Resolution steps Performed: Logged into the server. Memory utilization is under threshold. Hence closing the Incident. 
+
+Overall, Memory Consumption in the server is below threshold (<90%). Refer to the snippet attached below for the details of Memory Consumption of the server. 
 </pre>
 <h3>TWS</h3>
 <pre class="arun">Root Cause: &lt;&gt;
@@ -61,6 +75,11 @@ Resolution steps Performed: Linked the workstation manually. Now the workstation
 <pre class="arun">Root Cause: &lt;&gt;
 KEDB followed: Yes
 Resolution steps Performed: Restarted the application pool by logging into the server and by using command "inetmgr". Now, its running fine. Hence, closing the Incident.
+</pre>
+<h3>C DRIVE CLEAN-UP</h3>
+<pre class="arun">Root Cause: &lt;&gt;
+KEDB followed: Yes
+Resolution steps Performed: Logged into the server. Ran all the commands to clear the space in the C-Drive. Now, the disk free space is above 10%. Hence closing the Incident. 
 </pre>
 
 <pre class="arun"><h3>Oftenly Used Writings</h3>
